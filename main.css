@@ -1,0 +1,93 @@
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+    .conteiner {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box {
+        width: 400px;
+        height: 400px;
+        background-color: #43389F;
+        box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+        background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+    }
+    
+    .cyfra1_one {
+        width: 20px;
+        height: 45px;
+        rotate: 45deg;
+        position: relative;
+        top: 15vh;
+        left: 20.62%;
+        background-color: white;
+        box-shadow: 6px 8px 50px 0 black;
+        border-radius: 2px;
+    }
+    
+    .row {
+        display: flex;
+        width: 60%;
+        position: relative;
+        top: 8.94vh;
+        left: 25%;
+    }
+    
+    .cyfra1_two {
+        width: 20px;
+        height: 100px;
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: 6px 6px 30px 0 black;
+        z-index: 2;
+    }
+    
+    .cyfra0_one,
+    .cyfra0_two {
+        width: 65px;
+        height: 65px;
+        background-color: transparent;
+        border-radius: 100%;
+        border: 20px solid white;
+        box-shadow: 10px 10px 30px 0 black;
+        position: relative;
+    }
+    
+    .cyfra0_one {
+        right: 2%;
+        z-index: 1;
+    }
+    
+    .cyfra0_two {
+        right: 6%;
+        z-index: 0;
+    }
+    
+    .text {
+        width: 60%;
+        text-align: center;
+        position: relative;
+        top: 10vh;
+        left: 19%;
+    }
+    
+    h1,
+    h2 {
+        display: block;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        height: 2vh;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 90px;
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
